@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AussieLeagueWinnerCalculator.Api", "AussieLeagueWinnerCalculator.Api\AussieLeagueWinnerCalculator.Api.csproj", "{F5475CEC-4E70-455A-9939-5F4FE4CE39F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AussieLeagueWinnerCalculator.Application", "AussieLeagueWinnerCalculator.Application\AussieLeagueWinnerCalculator.Application.csproj", "{1DCE6DE6-A026-4422-81A7-0C4E440E1D6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E936E808-D320-49B7-90CE-1BA9EFD2A928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AussieLeagueWinnerCalculator.Tests.Unit", "AussieLeagueWinnerCalculator.Tests.Unit\AussieLeagueWinnerCalculator.Tests.Unit.csproj", "{8B34D624-D0B4-410E-A938-B9FC28579158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AussieLeagueWinnerCalculator.Tests.Integration", "AussieLeagueWinnerCalculator.Tests.Integration\AussieLeagueWinnerCalculator.Tests.Integration.csproj", "{EF4A4292-71EA-4C6D-8BE8-23156919A095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5475CEC-4E70-455A-9939-5F4FE4CE39F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5475CEC-4E70-455A-9939-5F4FE4CE39F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5475CEC-4E70-455A-9939-5F4FE4CE39F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5475CEC-4E70-455A-9939-5F4FE4CE39F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DCE6DE6-A026-4422-81A7-0C4E440E1D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DCE6DE6-A026-4422-81A7-0C4E440E1D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DCE6DE6-A026-4422-81A7-0C4E440E1D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DCE6DE6-A026-4422-81A7-0C4E440E1D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B34D624-D0B4-410E-A938-B9FC28579158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B34D624-D0B4-410E-A938-B9FC28579158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B34D624-D0B4-410E-A938-B9FC28579158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B34D624-D0B4-410E-A938-B9FC28579158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4A4292-71EA-4C6D-8BE8-23156919A095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4A4292-71EA-4C6D-8BE8-23156919A095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4A4292-71EA-4C6D-8BE8-23156919A095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4A4292-71EA-4C6D-8BE8-23156919A095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B34D624-D0B4-410E-A938-B9FC28579158} = {E936E808-D320-49B7-90CE-1BA9EFD2A928}
+		{EF4A4292-71EA-4C6D-8BE8-23156919A095} = {E936E808-D320-49B7-90CE-1BA9EFD2A928}
+	EndGlobalSection
+EndGlobal
